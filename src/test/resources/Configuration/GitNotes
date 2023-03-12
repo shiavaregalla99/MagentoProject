@@ -1,0 +1,18 @@
+Git : Will work as local repository 
+
+Git Hub : is a remote repository
+
+go inside the project location for mac you can go inside the project location
+by using the terminal
+
+
+git init : it will intialize the empty repository
+if you want to add the single file
+you can do git add filename
+or if you want to add more files at single time 
+you can say git add .
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/shiavaregalla99/MagentoProject.git
+git push -u origin main
